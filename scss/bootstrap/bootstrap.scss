@@ -1,0 +1,57 @@
+// FullContent
+
+// Import bootstrap functions and mixins
+@import "scss/mixins.scss";
+@import "scss/functions.scss";
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "variables.scss";
+
+// // Import custom variables (overrides Bootstrap default variables)
+// @import "mixins";
+
+// Import bootstrap
+// @import "scss/bootstrap.scss";
+
+// Import bootstrap components
+// TIP: I recommend disable components we are not using, you must keep variables file.
+@import "scss/variables.scss";
+@import "scss/root.scss";
+@import "scss/reboot.scss";
+@import "scss/type.scss";
+@import "scss/images.scss";
+@import "scss/code.scss";
+@import "scss/grid.scss";
+@import "scss/tables.scss";
+@import "scss/forms.scss";
+@import "scss/buttons.scss";
+@import "scss/transitions.scss";
+@import "scss/dropdown.scss";
+@import "scss/button-group.scss";
+@import "scss/input-group.scss";
+@import "scss/custom-forms.scss";
+@import "scss/nav.scss";
+@import "scss/navbar.scss";
+@import "scss/card.scss";
+@import "scss/breadcrumb.scss";
+@import "scss/pagination.scss";
+@import "scss/badge.scss";
+@import "scss/jumbotron.scss";
+@import "scss/alert.scss";
+@import "scss/progress.scss";
+@import "scss/media.scss";
+@import "scss/list-group.scss";
+@import "scss/close.scss";
+@import "scss/toasts.scss";
+@import "scss/modal.scss";
+@import "scss/tooltip.scss";
+@import "scss/popover.scss";
+@import "scss/carousel.scss";
+@import "scss/spinners.scss";
+@import "scss/utilities.scss";
+@import "scss/print.scss";
+
+// Import custom elements
+// TIP: I recommend you to fully remplace the component for the custom component with our changes in order to keep css clean and not repeated.
+@import "overwrite/overwrite-components";
+ 

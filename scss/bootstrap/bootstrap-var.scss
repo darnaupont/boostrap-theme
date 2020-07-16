@@ -1,0 +1,9 @@
+// variables
+// custom boostrap varialbes functions and mixins, to import for isolated or independent files in order to avoid the overload of classes
+
+// Import bootstrap functions and mixins
+@import "scss/mixins.scss";
+@import "scss/functions.scss";
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "variables.scss";
