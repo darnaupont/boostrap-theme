@@ -1,0 +1,26 @@
+// Global styling for this template
+
+//keeps full content of the page and the footer on the bottom
+.main-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.main-content{
+  margin-bottom: auto;
+
+}
+.main-footer{
+  background-color: $dark;
+}
+
+
+//Buttons 
+.btn{
+  margin-bottom: 0.25rem;
+  &-square{
+    border-radius: 0;
+  }
+}
